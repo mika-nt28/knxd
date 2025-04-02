@@ -395,6 +395,10 @@ static struct argp_option options[] =
     "starts an EIBnet/IP multicast server"
   },
   {
+    "SecureKeys", 'SK', "FILE", OPTION_ARG_OPTIONAL,
+    "enable KNX secure keyering"
+  },
+  {
     "Interface", 'I', "intf", 0,
     "Interface to use"
   },
